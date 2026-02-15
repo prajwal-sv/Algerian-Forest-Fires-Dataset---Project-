@@ -18,6 +18,41 @@ The dataset includes 244 instances spanning from June 2012 to September 2012.
 * **Target:** FWI (Fire Weather Index).
 
 
+Here is the complete, final code for your README.md file. I have integrated the detailed attribute table, your model results, and the project structure into one clean, copy-pasteable document.
+
+Markdown
+# 🌲 Algerian Forest Fires Prediction 
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Scikit-Learn](https://img.shields.io/badge/Library-Scikit--Learn-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+## 📌 Project Overview
+This repository contains a machine learning project focused on predicting the **Fire Weather Index (FWI)**, a crucial component for forest fire risk assessment. The study covers two regions in Algeria: **Bejaia** and **Sidi Bel-abbes**, using data collected between June and September 2012.
+
+
+
+## 🗂️ Dataset Information
+The dataset consists of 244 instances. It includes meteorological observations and calculated FWI system indices.
+
+### Attribute Information:
+
+| # | Attribute | Description | Range / Unit |
+|:---:|:---|:---|:---|
+| 1 | **Date** | Day, month, and year of observation | DD/MM/YYYY |
+| 2 | **Temp** | Noon temperature (Max temperature) | 22 to 42 °C |
+| 3 | **RH** | Relative Humidity | 21 to 90 % |
+| 4 | **Ws** | Wind speed | 6 to 29 km/h |
+| 5 | **Rain** | Total daily rainfall | 0 to 16.8 mm |
+| 6 | **FFMC** | Fine Fuel Moisture Code (Surface litter) | 28.6 to 92.5 |
+| 7 | **DMC** | Duff Moisture Code (Shallow organic layers) | 1.1 to 65.9 |
+| 8 | **DC** | Drought Code (Deep organic layers) | 7 to 220.4 |
+| 9 | **ISI** | Initial Spread Index (Fire spread rate) | 0 to 18.5 |
+| 10 | **BUI** | Buildup Index (Total fuel available) | 1.1 to 68 |
+| 11 | **FWI** | Fire Weather Index (**Target Variable**) | 0 to 31.1 |
+| 12 | **Classes** | Current status: Fire or Not Fire | Categorical |
+
+---
 
 ## 🚀 Research & Methodology
 
