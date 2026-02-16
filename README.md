@@ -8,26 +8,6 @@ The dataset has 244 records from Algeria’s Bejaia (northeast) and Sidi Bel-abb
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## 📌 Project Overview
-This repository contains a machine learning project that predicts the occurrence and intensity of forest fires in two regions of Algeria: **Bejaia** and **Sidi Bel-abbes**. Using meteorological data, we employ various regression techniques to model the **Fire Weather Index (FWI)**.
-
-## 🗂️ Dataset Information
-The dataset includes 244 instances spanning from June 2012 to September 2012. 
-**Key Features:**
-* **Weather Data:** Temperature, Relative Humidity (RH), Wind Speed, Rain.
-* **FWI System Components:** FFMC, DMC, DC, ISI, BUI.
-* **Target:** FWI (Fire Weather Index).
-
-
-Here is the complete, final code for your README.md file. I have integrated the detailed attribute table, your model results, and the project structure into one clean, copy-pasteable document.
-
-Markdown
-# 🌲 Algerian Forest Fires Prediction 
-
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Scikit-Learn](https://img.shields.io/badge/Library-Scikit--Learn-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
-
-## 📌 Project Overview
 This repository contains a machine learning project focused on predicting the **Fire Weather Index (FWI)**, a crucial component for forest fire risk assessment. The study covers two regions in Algeria: **Bejaia** and **Sidi Bel-abbes**, using data collected between June and September 2012.
 
 
